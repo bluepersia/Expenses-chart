@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background-color: #F8E9DD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4.4em 4.2%;
+  font-family: "DM Sans", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

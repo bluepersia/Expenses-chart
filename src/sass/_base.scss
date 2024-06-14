@@ -1,0 +1,19 @@
+$color-White: white;
+$color-CardWhite: #FFFBF6;
+$color-Cream: #F8E9DD;
+$color-MediumBrown: #92857A;
+$color-DarkBrown: #382314;
+$color-Cyan: #76B5BC;
+$color-Red: #EC755D;
+
+body {
+    margin: 0;
+    background-color: $color-Cream;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.4em 4.2%;
+    font-family: "DM Sans", sans-serif;
+}
+
