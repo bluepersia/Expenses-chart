@@ -14,6 +14,11 @@ html {
   font-size: 15px;
 }
 
+@media (min-width: 1000px) {
+  html {
+    font-size: 18px;
+  }
+}
 .caption, .cmp__chart__label, .cmp__balance__label, .footer-caption, .cmp__last__label, .cmp__totals__label {
   font-size: 1rem;
 }
@@ -21,6 +26,10 @@ html {
 .footer-caption, .cmp__last__label, .cmp__totals__label {
   font-weight: 400;
   color: #92857A;
+}
+
+.heading-l, .cmp__title, .cmp__balance__value {
+  font-size: 1.6rem;
 }
 
 .cmp {
@@ -53,7 +62,6 @@ html {
   margin-bottom: 0.26em;
 }
 .cmp__balance__value {
-  font-size: 1.6rem;
   font-weight: bold;
 }
 .cmp__main {
@@ -64,7 +72,6 @@ html {
   border-top-right-radius: 10px;
 }
 .cmp__title {
-  font-size: 1.6rem;
   margin-bottom: 2em;
   color: #382314;
 }
@@ -143,6 +150,15 @@ html {
 }
 .cmp__last__label {
   margin-top: 0;
+}
+
+@media (min-width: 1000px) {
+  .heading-l, .cmp__balance__value, .cmp__title {
+    font-size: 1.77rem;
+  }
+  .cmp__totals__value {
+    font-size: 2.66rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

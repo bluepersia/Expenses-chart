@@ -12,6 +12,11 @@
     color: $color-MediumBrown;
 }
 
+.heading-l 
+{
+    font-size: 1.6rem;
+}
+
 .cmp 
 {
     box-sizing: border-box;
@@ -52,7 +57,7 @@
 
         &__value 
         {
-            font-size: 1.6rem;
+            @extend .heading-l;
             font-weight: bold;
         }
     }
@@ -70,7 +75,7 @@
 
     &__title
      {
-        font-size: 1.6rem;
+        @extend .heading-l;
         margin-bottom: 2em;
         color: $color-DarkBrown;
      }
@@ -179,6 +184,25 @@
         {
             @extend .footer-caption;
             margin-top: 0;
+        }
+    }
+}
+
+
+@media (min-width:1000px)
+{
+
+    .heading-l {
+        font-size: 1.77rem;
+    }
+    .cmp 
+    {
+        &__totals
+        {
+            &__value
+             {
+             font-size:2.66rem;
+             }
         }
     }
 }

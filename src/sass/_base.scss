@@ -21,3 +21,10 @@ body {
 html {
     font-size: 15px;
 }
+
+@media (min-width:1000px)
+{
+    html {
+        font-size: 18px;
+    }
+}
