@@ -15,5 +15,16 @@ body {
     align-items: center;
     padding: 4.4em 4.2%;
     font-family: "DM Sans", sans-serif;
+    min-height: 100vh;
 }
 
+html {
+    font-size: 15px;
+}
+
+@media (min-width:1000px)
+{
+    html {
+        font-size: 18px;
+    }
+}
